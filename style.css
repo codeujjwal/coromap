@@ -1,0 +1,58 @@
+* {
+  margin: 0px;
+}
+
+#map {
+  position: absolute;
+  width: 100vw;
+  height: 70vh;
+  display: block;
+}
+
+#nav {
+  position: fixed;
+  padding: 20px;
+  bottom: 0px;
+  height: 30vh;
+  width: 100%;
+  background-color: rgba(12, 11, 11, 0.76);
+}
+#nav ul {
+  list-style: none;
+}
+
+#india {
+  display: block;
+  text-align: center;
+  margin: auto;
+}
+
+#india ul li {
+  padding: 5px 2px;
+}
+
+#nav ul li h2 {
+  font-weight: bolder;
+  color: rgb(255, 255, 255);
+  font-family: "Suez One", serif;
+  margin-top: 40px;
+}
+
+#india ul li span {
+  color: #ff8800;
+  font-size: 1.2rem;
+  font-family: "Patua One", cursive;
+}
+
+.left {
+  display: block;
+  float: left;
+}
+
+.right {
+  display: block;
+  float: right;
+}
+.left li span {
+  color: white;
+}
